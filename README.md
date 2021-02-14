@@ -18,7 +18,10 @@ $ cd jobs
 
 ### Step 1 [without git]: Download Github repository to local computer
 Click the green Code button at the top right of the screen and selected "Download ZIP".
-Open up your terminal and `cd` into the downloaded directory. (This directory should be called "jobs-main").
+Open up your terminal and `cd` into the downloaded directory. (This directory should be called "jobs-main"):
+```sh
+$ cd jobs-main
+```
 
 ### Step 2: Install necessary packages
 For this step and the next step, ensure that you have [Node.js](https://nodejs.org/en/) installed.
