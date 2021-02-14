@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to run locally
 
-Clone this github repository to your local computer. In a local directory, run:
+Clone this github repository to your local computer. Open up your terminal and `cd` into the local directory where you would like to open this project. Once in a local directory, run:
 ```sh
 $ git clone https://github.com/ayaegashi/jobs.git
 ```
