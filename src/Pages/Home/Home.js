@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useQuery, useLazyQuery } from '@apollo/client'
-import { ALL_JOBS, SEARCH_BY_CITY, SEARCH_BY_COUNTRY } from './graphql'
+import { ALL_JOBS, SEARCH_BY_CITY } from './graphql'
 import List from './Components/List'
 import CitySearch from './Components/Search/City'
 import CountrySearch from './Components/Search/Country'
@@ -23,13 +23,6 @@ const Home = () => {
         onCompleted:() => {
             console.log(searchByCityData)
             setSearchResults(searchByCityData.city.jobs)
-        }
-    })
-
-    const [searchByCountry, { data: searchByCountryData, loading: countrySearchLoading, error: countrySearchError }] = useLazyQuery(SEARCH_BY_COUNTRY,{
-        onCompleted:() => {
-            console.log(searchByCountryData)
-            setSearchResults(searchByCountryData.country.jobs)
         }
     })
 

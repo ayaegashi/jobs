@@ -20,7 +20,9 @@ const Job = () => {
         }
     })
 
-    if (loading) return <p>Job posting is loading</p>
+    if (loading) return (
+    <Container><p>Job posting is loading</p></Container>)
+
     if (error) return <p>There's been an error. Please go back.</p>
 
     if (data) {
