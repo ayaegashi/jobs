@@ -10,6 +10,12 @@ Open up your terminal and `cd` into the local directory where you would like to 
 $ git clone https://github.com/ayaegashi/jobs.git
 ```
 
+### Change directories
+Change directories into the project directory:
+```sh
+$ cd jobs
+```
+
 ### Install necessary packages
 Again in your terminal, run:
 ```sh
