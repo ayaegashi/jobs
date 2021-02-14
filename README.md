@@ -11,11 +11,13 @@ $ git clone https://github.com/ayaegashi/jobs.git
 ```
 
 ### Install necessary packages
+Again in your terminal, run:
 ```sh
 $ npm install
 ```
 
 ### Run project
+Finally, run:
 ```sh
 $ npm start
 ```
