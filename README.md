@@ -17,7 +17,7 @@ $ cd jobs
 ```
 
 ### Step 1 [without git]: Download Github repository to local computer
-Click the green Code button at the top right of the screen and selected "Download ZIP".
+Click the green Code button at the top right of the screen and select "Download ZIP".
 Open up your terminal and `cd` into the downloaded directory. (This directory should be called "jobs-main"):
 ```sh
 $ cd jobs-main
