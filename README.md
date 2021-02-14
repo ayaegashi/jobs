@@ -6,15 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Clone this github repository to your local computer. In a local directory, run:
 ```sh
-git clone https://github.com/ayaegashi/jobs.git
+$ git clone https://github.com/ayaegashi/jobs.git
 ```
 
 Install necessary packages:
 ```sh
-npm install
+$ npm install
 ```
 
 Run project:
 ```sh
-npm start
+$ npm start
 ```
